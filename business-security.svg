@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="CCTV camera watching over a business building">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B2A52"/><stop offset="1" stop-color="#040C1C"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBDC6A"/><stop offset="1" stop-color="#C9920E"/></linearGradient>
+<linearGradient id="cy" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3FE3F2"/><stop offset="1" stop-color="#0A8FB0"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#153E73"/><stop offset="1" stop-color="#0A2248"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#19C2D6" stop-opacity=".45"/><stop offset="1" stop-color="#19C2D6" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#2A5A8F" stroke-opacity=".22"/></pattern>
+</defs>
+<rect width="600" height="400" fill="url(#bg)"/><rect width="600" height="400" fill="url(#grid)"/>
+
+<ellipse cx="330" cy="330" rx="240" ry="36" fill="url(#glow)"/>
+<rect x="250" y="110" width="200" height="220" rx="6" fill="url(#panel)" stroke="#2F6BAE"/>
+<g fill="#1E4F8A"><rect x="270" y="130" width="30" height="26" rx="3"/><rect x="315" y="130" width="30" height="26" rx="3"/><rect x="360" y="130" width="30" height="26" rx="3"/><rect x="405" y="130" width="30" height="26" rx="3"/><rect x="270" y="172" width="30" height="26" rx="3"/><rect x="315" y="172" width="30" height="26" rx="3"/><rect x="360" y="172" width="30" height="26" rx="3"/><rect x="405" y="172" width="30" height="26" rx="3"/><rect x="270" y="214" width="30" height="26" rx="3"/><rect x="315" y="214" width="30" height="26" rx="3"/><rect x="360" y="214" width="30" height="26" rx="3"/><rect x="405" y="214" width="30" height="26" rx="3"/><rect x="270" y="256" width="30" height="26" rx="3"/><rect x="315" y="256" width="30" height="26" rx="3"/><rect x="360" y="256" width="30" height="26" rx="3"/><rect x="405" y="256" width="30" height="26" rx="3"/></g>
+<g fill="#F7D25A" opacity=".85"><rect x="315" y="172" width="30" height="26" rx="3"/><rect x="405" y="214" width="30" height="26" rx="3"/><rect x="270" y="256" width="30" height="26" rx="3"/></g>
+<rect x="330" y="296" width="40" height="34" fill="#0A2248" stroke="#2F6BAE"/>
+<rect x="460" y="190" width="90" height="140" rx="6" fill="#0E2E5A" stroke="#2F6BAE"/>
+<path d="M150 95 L250 70 L250 300 L90 330 Z" fill="#19C2D6" opacity=".10"/>
+<path d="M150 95 L330 150 L260 330 L110 330 Z" fill="url(#cy)" opacity=".12"/>
+<rect x="60" y="60" width="10" height="70" fill="#8FA9C9"/>
+<g transform="rotate(18 110 90)"><rect x="70" y="72" width="96" height="36" rx="10" fill="#E9EEF5"/><rect x="150" y="76" width="22" height="28" rx="6" fill="#0A2248"/><circle cx="161" cy="90" r="8" fill="#19C2D6"/><circle cx="161" cy="90" r="3" fill="#E9FBFF"/><rect x="80" y="80" width="14" height="6" rx="3" fill="#C9920E"/></g>
+<circle cx="84" cy="88" r="4" fill="#FF5A5A"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<g stroke="#19C2D6" stroke-width="2" fill="none" opacity=".7"><rect x="300" y="160" width="60" height="50" rx="4" stroke-dasharray="10 6"/></g>
+</svg>

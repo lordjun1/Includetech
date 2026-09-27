@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Shield and lock protecting data">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B2A52"/><stop offset="1" stop-color="#040C1C"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBDC6A"/><stop offset="1" stop-color="#C9920E"/></linearGradient>
+<linearGradient id="cy" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3FE3F2"/><stop offset="1" stop-color="#0A8FB0"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#153E73"/><stop offset="1" stop-color="#0A2248"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#19C2D6" stop-opacity=".45"/><stop offset="1" stop-color="#19C2D6" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#2A5A8F" stroke-opacity=".22"/></pattern>
+</defs>
+<rect width="600" height="400" fill="url(#bg)"/><rect width="600" height="400" fill="url(#grid)"/>
+ 
+<circle cx="300" cy="200" r="170" fill="url(#glow)"/>
+<g fill="none" stroke="#19C2D6" opacity=".5"><circle cx="300" cy="200" r="150" stroke-dasharray="3 9"/><circle cx="300" cy="200" r="120"/></g>
+<g fill="none" stroke="#3FE3F2" stroke-width="3"><path d="M300 80 a120 120 0 0 1 104 60" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0 300 200" to="360 300 200" dur="6s" repeatCount="indefinite"/></path></g>
+<path d="M300 92 L376 120 V196 C376 250 342 290 300 310 C258 290 224 250 224 196 V120 Z" fill="url(#panel)" stroke="url(#cy)" stroke-width="5"/>
+<path d="M300 112 L358 134 V196 C358 238 333 270 300 288 Z" fill="#19C2D6" opacity=".15"/>
+<rect x="268" y="186" width="64" height="54" rx="8" fill="url(#gold)"/>
+<path d="M280 186 v-16 a20 20 0 0 1 40 0 v16" fill="none" stroke="url(#gold)" stroke-width="9"/>
+<circle cx="300" cy="206" r="7" fill="#0A2248"/><rect x="297" y="208" width="6" height="16" rx="2" fill="#0A2248"/>
+<g font-family="monospace" font-size="14" fill="#3FE3F2" opacity=".45"><text x="40" y="70">10110 01001</text><text x="30" y="330">01101 11010</text><text x="450" y="90">11001 00110</text><text x="460" y="340">00101 10111</text></g>
+<g fill="#F7D25A"><rect x="120" y="190" width="10" height="10"/><rect x="470" y="200" width="10" height="10"/><rect x="140" y="140" width="6" height="6"/><rect x="456" y="150" width="6" height="6"/></g>
+</svg>
